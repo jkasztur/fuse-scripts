@@ -8,4 +8,4 @@ fi
 neweap='/home/jkasztur/repos/fuse-scripts/neweap.sh'
 $neweap
 
-java -jar /home/jkasztur/Downloads/fuse-eap-installer-$1.jar $EAP_HOME
+java -jar /home/jkasztur/Downloads/FUSE_INSTALLER/fuse-eap-installer-$1.jar $EAP_HOME
