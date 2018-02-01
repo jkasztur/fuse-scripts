@@ -14,5 +14,5 @@ fi
 
 unzip -q /home/jkasztur/Downloads/FUSE/jboss-fuse-karaf-$1 -d $FUSE_HOME
 
-echo "admin=admin,admin,manager,viewer,Monitor, Operator, Maintainer, Deployer, Auditor, Administrator, SuperUser" > $FUSE_HOME/*-$1/etc/users.properties
+echo "admin=admin123.,admin,manager,viewer,Monitor, Operator, Maintainer, Deployer, Auditor, Administrator, SuperUser" > $FUSE_HOME/*-$1/etc/users.properties
 echo 'Done'
